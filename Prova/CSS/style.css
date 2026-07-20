@@ -1,0 +1,19 @@
+	body{
+		background:#FF746C;
+	}
+	.Azul{
+		color:skyblue;
+	}
+	.fundo{
+		background-color:#ffffff;
+
+	}
+	.fonte30{
+		font-size:30px;
+	}
+	.verdana{
+		font-family: verdana;
+	}
+	.center{
+		text-align:center;
+	}
