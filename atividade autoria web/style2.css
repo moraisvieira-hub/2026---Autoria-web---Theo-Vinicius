@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    width: 100%;
+    background-color: #111111;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "introducao introducao"
+        "queda san"
+        "uss uss";
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+main > aside {
+    display: none;
+}
+
+.conteudo {
+    display: contents;
+}
+
+.introducao {
+    grid-area: introducao;
+    background-color: #111111;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.introducao img {
+    width: 70%;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.episodios {
+    display: contents;
+}
+
+#queda-livre {
+    grid-area: queda;
+}
+
+#san-junipero {
+    grid-area: san;
+}
+
+#uss-callister {
+    grid-area: uss;
+}
+
+article {
+    background-color: #111111;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+article img {
+    width: 80%;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+article aside {
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+footer {
+    width: 100%;
+    background-color: #111111;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+}
